@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0px;
+    box-sizing: border-box;
+    
+}
+
+.counter-container{ 
+    background-image: url(assests/345247.jpg);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    width:100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: white;
+    padding:30px;
+    border-radius: 30px;
+}
+
+.counter-heading{
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(5, 5, 5);
+    font-size:70px;
+}
+
+.counter{
+    font-size:50px;
+    margin:20px;
+    color: rgb(9, 9, 9);
+
+}
+
+.button{
+    padding: 15px;
+    margin:10px;
+    font-size:20px;
+    border-radius: 10px;
+    background: transparent;
+    color:rgb(18, 18, 18);
+    cursor: pointer;
+}
